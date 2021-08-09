@@ -118,7 +118,7 @@ public class Main {
                 loop = false;
         }
         int n = al.size()-1;
-        for(int i=n;i<=0;i--)
+        for(int i=n;i>=0;i--)
             System.out.print(al.get(i)+" ");
     }
 }
