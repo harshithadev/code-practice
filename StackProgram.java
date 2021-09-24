@@ -36,10 +36,9 @@ public class StackProgram {
 
 */
 
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
-
-public class StackProgram {
+class StackProgram {
     public static int balance(String A){
         Stack<Integer> st = new Stack<Integer>();
         for(int i=0; i<A.length(); i++)
@@ -60,7 +59,8 @@ public class StackProgram {
         else 
             return -1;
     }
-    public static void StackProgram(String[] args) {
+}
+   /* public static void StackProgram(String[] args) {
         // YOUR CODE GOES HERE
         // Please take input and print output to standard input/output (stdin/stdout)
         // DO NOT USE ARGUMENTS FOR INPUTS
@@ -82,6 +82,7 @@ public class StackProgram {
         sc.close();
         for (int i = 0; i<n; i++)
         System.out.println(result[i]);
+        sc.close();
     }
 }
 
@@ -98,7 +99,7 @@ public class StackProgram {
 
 
 
-
+*/
 
 //Meanwhile check out the other data structures in Java as well!!!
 /*
