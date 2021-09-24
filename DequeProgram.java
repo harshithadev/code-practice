@@ -1,4 +1,4 @@
-import java.lang.*;
+//import java.lang.*;
 import java.util.*;
 
 public class DequeProgram {
@@ -59,6 +59,7 @@ public class DequeProgram {
                 break;
             }
         }
+        sc.close();
     }
 }
 
