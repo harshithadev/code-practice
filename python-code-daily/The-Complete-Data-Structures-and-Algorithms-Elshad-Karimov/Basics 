@@ -1,0 +1,28 @@
+## Data Types
+
+1. Primitive
+   (single, cannot be furthur divided)
+
+- Integer
+- Float
+- String
+- Boolean
+
+2. Non Primitive
+   (complex structures,can be divided into individuals that are primitive)
+
+   2.1 Linear (order matters, one connected to another)
+
+   - List
+   - Tuple
+   - Array
+   - Linked List
+   - Stack
+   - Queue
+
+     2.2 Non Linear (order does not matter)
+
+   - Set
+   - Dictionary
+   - Tree
+   - Graph
