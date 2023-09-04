@@ -26,3 +26,33 @@
    - Dictionary
    - Tree
    - Graph
+
+---
+
+---
+
+## Algorithms
+
+1. sorting
+
+- sort data is ascending or descending order.
+
+2. search
+
+- search for an individual data element.
+
+3. graph
+
+- work with data represented as a graph.
+
+4. dynamic programming
+
+- solve problems by breaking them into smaller sub-problems
+
+5. divide and conquer
+
+- solving by dividing them into smaller sub-problems, then solving each independently then combining the results.
+
+6. recursive
+
+- breaking down the problem into smaller sub-problems that are similar in nature.
