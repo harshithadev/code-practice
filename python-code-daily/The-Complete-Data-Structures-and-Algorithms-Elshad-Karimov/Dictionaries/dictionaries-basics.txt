@@ -1,0 +1,63 @@
+Dictionaries : 
+- unordered 
+- changable 
+- indexed  (works as key and value pair)
+
+
+# Creating Dictionary 
+
+dic = dict() # empty dictionary 
+dic = {} # another empty dictionary 
+
+dic = {1:'one', 2:'two', 3:'three', 4:'four'} # dictionary with values 
+dic = dict(1='one', 2='two', 3='three', 4='four') # dictionary with values
+
+# we can also create a dictionary from a list of tuples. 
+ls = [(1,'one'), (2,'two'), (3,'three')]
+dic = dict(ls)
+
+# dictionary in memory 
+- implemented using hash tables 
+
+# updating dictionaries : 
+dic = {1:'one', 2:'two', 3:'three', 4:'four'} 
+dic[1] = 'ones' # this would update the dictionary 
+dic[5] = 'five' # this would add an element if the item does not exsist already
+
+# traversing a dictionary : 
+for k, v in dic.items():
+    print(k, v)
+
+# finding a value : 
+if k in dic:
+    print(dic[k])
+else : 
+    print("not present")
+
+
+# deleteing element from Dictionary : 
+removed_element = dic.popitem() # removes the last inserted item 
+del dic['key] # this would delete 
+removed_element = dic.pop('key) # this would remove that item, else return -1
+dic.clear() # removes all items 
+
+# dictionary methods: 
+- dic.clear() - clears all items 
+- dic.copy() - creates shallow copy. returns the copy.
+- {}.fromKeys([1,2,3,4], 0) or {}.fromKeys([1,2,3,4]) , if second parameter is not provided, them values are none.
+- dic.get('key') : will return the value
+- dic.items : returns a key, value tuple pair in a list. 
+- dic.keys() : returns a list of keys 
+- dic.values() : returns a list of values 
+- dic.popitem() : last element popped
+- setdefault(key, default_value) : if already exists, does nothing. else adds the new elemen with the default as value 
+- dic.pop("key") : removes the key mentioned 
+- dic.update(another_dic) : adds the elements from the second dic into the first dic
+
+# more operations : 
+- sorted(dic) # returns keys ordered 
+
+# dictionary comprehension : 
+new_dic = {key:value for k, v in dic.items()}
+
+new_dic = {key:value for k, v in dic.items() if condition } 
