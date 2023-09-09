@@ -1,0 +1,26 @@
+tuple : 
+- sequence of objects
+- hashable 
+- comparable 
+
+
+# creation of tuple : 
+tup = (1, 2, 4, 6) # new tuple 
+tup = (1,)  # tuple with one element
+
+# accessing, indexing and slicing : 
+- same as lists. 
+
+# update : 
+- cannot update. 
+
+# search : 
+- in opertor can be used. 
+
+# operations : 
+- + operator : concatenates tuples.
+- * operator : multiple concatention 
+- in operator : 
+- tup.count(element) : count of ele
+- tup.index(element) : index of ele
+- len, max, tuple
