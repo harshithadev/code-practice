@@ -1,0 +1,56 @@
+- types of Linked List
+- Linked list in memory
+- operation on linked list :
+  - Create
+  - Insert
+  - Access
+  - Delete
+  - Update LL
+
+1. What is a Linked List :
+
+- Linked List is a form of a sequential collection.
+- It does not have an order.
+- List is made up of individual (NODES), with some type of data.
+- Each node has a reference to the next node.
+- Head, Tail and links exsist.
+
+Example :
+
+HEAD (001) ---> NODE 1 (222) ---> NODE 2 (312) --> NODE 3 (null) <-- TAIL
+
+As we can see, each node has some data, and a reference value.
+The reference value is basically the address location of the subsequent node.
+We have a HEAD node, which contains the reference to the first node.
+And we have a TAIL reference, so as to decrease the time complexity to add an element to the linked list (not mandatory though)
+
+---
+
+2. Difference between linked list and an array.
+
+- Arrays store theirs elements in a continguous memory locations.
+  So accessing elements in an array given the index n is Q(1) time complexity
+  Cannot be dynamically allocated during runtime.
+
+- Linked list are not stored in continguous memory locations.
+  Accessing elements in the nth postion would take O(n) time complexity.
+  On the other hand, it is memory efficient, we wouldn't need a continuous block of memory space.
+  Can be dynamically allocated during runtime.
+
+---
+
+3. Types of Linked List :
+
+- Singly Linked List
+  HEAD referenced to the first element, TAIL referenced to the last element, and last element referenced to null. And each element referenced to the next element.
+
+- Circular Linked List
+  HEAD referenced to the first element, TAIL referenced to the last element, and last element referenced to the first element. And each element referenced to the next element.
+
+- Doubly Linked List
+  HEAD referenced to the first element, TAIL referenced to the last element, and last element referenced to null. And each element referenced to the next element and the previous element.
+  The first node does not have a previous node reference (null)
+
+- Circular Doubley Linked List
+  HEAD referenced to the first element, TAIL referenced to the last element, and last element referenced to the first element. And each element referenced to the next element and the previous element.
+  The first node has a reference to the last node.
