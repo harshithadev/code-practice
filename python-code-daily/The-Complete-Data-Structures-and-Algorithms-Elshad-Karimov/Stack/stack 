@@ -1,0 +1,12 @@
+Stack Data Structure
+
+- Last In - First Out mechanism.
+
+1. Stack Operations :
+   - Create Stack
+   - Push
+   - Pop
+   - Peek
+   - isEmpty
+   - isFull
+   - deleteStack
