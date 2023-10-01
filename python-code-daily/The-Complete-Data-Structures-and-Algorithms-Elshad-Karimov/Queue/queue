@@ -1,0 +1,23 @@
+Queue :
+
+- Data structure that resembles a literal queue.
+- First In - First out !
+- Insertion happens in the rear-end
+- Deletion happens in the front-end
+
+1. Operations involved :
+
+- Enqueue
+- Dequeue
+- Peek
+- Delete
+- isEmpty
+- isFull
+
+2. Implementation methods :
+
+- LinkedLists
+
+- Lists
+  : Queue without capacity
+  : Queue with capacity (circular queue)

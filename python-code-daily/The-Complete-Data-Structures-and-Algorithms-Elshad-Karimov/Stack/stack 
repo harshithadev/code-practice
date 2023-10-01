@@ -1,6 +1,8 @@
 Stack Data Structure
 
 - Last In - First Out mechanism.
+- Insertion happens in the top
+- Deletion also happens in the top
 
 1. Stack Operations :
    - Create Stack
